@@ -2,7 +2,7 @@ components={
   frontend={
     name="frontend"
     instance_type="t2.micro"
-    value="yes"
+
   }
 #  mongodb={
 #    name="mongodb"
@@ -11,7 +11,7 @@ components={
   catalogue={
     name="catalogue"
     instance_type="t2.micro"
-    value="yes"
+
   }
 #  redis={
 #    name="redis"
@@ -45,4 +45,5 @@ components={
 security_groups = ["sg-09f2ca421f162b6b5"]
 
 zone_id = "Z011249635V6ILR7WTU6W"
+value="yes"
 
