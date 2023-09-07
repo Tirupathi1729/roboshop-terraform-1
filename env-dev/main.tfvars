@@ -1,7 +1,7 @@
 components={
   frontend={
     name="frontend"
-    instance_type="t2.micro"
+    instance_type="t3.small"
 
   }
 #  mongodb={
@@ -21,26 +21,26 @@ components={
     name="user"
     instance_type="t2.micro"
   }
-#  cart={
-#    name="cart"
-#    instance_type="t3.small"
-#  }
+  cart={
+    name="cart"
+    instance_type="t2.micro"
+  }
 #  mysql={
 #    name="mysql"
 #    instance_type="t3.small"
 #  }
-#  shipping={
-#    name="shipping"
-#    instance_type="t3.small"
-#  }
+  shipping={
+    name="shipping"
+    instance_type="t2.micro"
+  }
 #  rabbitmq={
 #    name="rabbitmq"
 #    instance_type="t3.small"
 #  }
-#  payment={
-#    name="payment"
-#    instance_type="t3.small"
-#  }
+  payment={
+    name="payment"
+    instance_type="t2.micro"
+  }
 }
 security_groups = ["sg-09f2ca421f162b6b5"]
 
