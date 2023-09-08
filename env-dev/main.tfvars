@@ -2,7 +2,7 @@ components={
   frontend={
     name="frontend"
     instance_type="t2.micro"
-    tags= {monitor_Nginx="yes"}
+
 
   }
 #  mongodb={
@@ -12,7 +12,7 @@ components={
   catalogue={
     name="catalogue"
     instance_type="t2.micro"
-    tags={}
+
 
   }
 #  redis={
@@ -22,12 +22,12 @@ components={
   user={
     name="user"
     instance_type="t2.micro"
-    tags={}
+
   }
   cart={
     name="cart"
     instance_type="t2.micro"
-    tags={}
+
   }
 #  mysql={
 #    name="mysql"
@@ -36,7 +36,7 @@ components={
   shipping={
     name="shipping"
     instance_type="t2.micro"
-    tags={}
+
   }
 #  rabbitmq={
 #    name="rabbitmq"
@@ -45,7 +45,7 @@ components={
   payment={
     name="payment"
     instance_type="t2.micro"
-    tags={}
+
   }
 }
 #component = "frontend"

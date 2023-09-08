@@ -10,5 +10,5 @@ module "components" {
   value             = var.value
   #monitoring_ingress_cidr = var.monitoring_ingress_cidr
   #component         = var.component
-  tags    = var.tags
+
 }
