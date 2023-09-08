@@ -9,5 +9,5 @@ module "components" {
   instance_type     = each.value["instance_type"]
   value             = var.value
   #monitoring_ingress_cidr = var.monitoring_ingress_cidr
-  component         = var.component
+  #component         = var.component
 }

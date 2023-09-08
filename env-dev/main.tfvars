@@ -42,7 +42,7 @@ components={
     instance_type="t2.micro"
   }
 }
-component = "frontend"
+#component = "frontend"
 security_groups = ["sg-06f905eeb15c22808"]
 #onitoring_ingress_cidr = ["172.31.43.251/32"]
 
