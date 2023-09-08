@@ -1,7 +1,7 @@
 components={
   frontend={
     name="frontend"
-    instance_type="t3.small"
+    instance_type="t2.micro"
 
   }
 #  mongodb={
