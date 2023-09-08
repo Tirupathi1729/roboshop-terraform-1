@@ -17,10 +17,10 @@ components={
 #    name="redis"
 #    instance_type="t3.small"
 #  }
-#  user={
-#    name="user"
-#    instance_type="t2.micro"
-#  }
+  user={
+    name="user"
+    instance_type="t2.micro"
+  }
   cart={
     name="cart"
     instance_type="t2.micro"
