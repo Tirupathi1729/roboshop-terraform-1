@@ -44,7 +44,7 @@ components={
 }
 component = "frontend"
 #security_groups = ["sg-09f2ca421f162b6b5"]
-monitoring_ingress_cidr = ["172.31.32.93/32"]
+monitoring_ingress_cidr = ["172.31.43.251/32"]
 
 zone_id = "Z011249635V6ILR7WTU6W"
 value="yes"
