@@ -42,7 +42,9 @@ components={
     instance_type="t2.micro"
   }
 }
-security_groups = ["sg-09f2ca421f162b6b5"]
+component = "frontend"
+#security_groups = ["sg-09f2ca421f162b6b5"]
+monitoring_ingress_cidr = ["172.31.32.93/32"]
 
 zone_id = "Z011249635V6ILR7WTU6W"
 value="yes"
