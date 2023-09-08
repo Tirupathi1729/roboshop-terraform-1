@@ -4,10 +4,10 @@ module "components" {
 
                                           #style convention       =  some data
   zone_id           = var.zone_id
-  #security_groups   = var.security_groups
+  security_groups   = var.security_groups
   name              = each.value["name"]
   instance_type     = each.value["instance_type"]
   value             = var.value
-  monitoring_ingress_cidr = var.monitoring_ingress_cidr
+  #monitoring_ingress_cidr = var.monitoring_ingress_cidr
   component         = var.component
 }
